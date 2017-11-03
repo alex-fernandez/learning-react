@@ -1,0 +1,242 @@
+body {
+    background-color: #e3e3e3;
+    font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif
+}
+
+.profile-card {
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    border: none;
+    font-family: "Helvetica Neue";
+    size: 10px;
+}
+
+.profile-card .card-header {
+    border-bottom: 1px solid #e9eff4;
+    background-color: #ffffff;
+}
+
+.profile-card .card-body {
+    padding: 0px;
+}
+
+.profile-card .view-details {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    color: #222222;
+}
+
+.profile-card .view-details:hover {
+    text-decoration: none;
+    background-color: #4d86c6;
+    color: #ffffff;
+}
+
+.profile-card .profile-body {
+    min-height: 50px;
+}
+
+.profile-card .profile-details {
+    min-width: 50px;
+}
+
+. App {
+    text-align: center;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.App-header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
+}
+
+.App-title {
+    font-size: 1.5em;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.Todo-App {
+    padding-top: 20px;
+    display: inline-block;
+    text-align: left;
+}
+
+ul {
+    padding: 0px;
+}
+
+ul li {
+    list-style: none;
+}
+
+.error {
+    color: red;
+}
+
+.profile {
+    padding: 10px;
+}
+
+.navtop {
+    margin-top: 50px;
+    min-height: 50px;
+    background-color: #ffffff;
+    padding-top: 5px;
+}
+
+.icon-bar {
+    width: 100%; /* Full-width */
+    overflow: auto; /* Overflow due to float */
+    padding: 10px 0px;
+}
+
+.fa-toolbar-buttons {
+    color: #b5afaf;
+}
+
+.icon-bar a {
+    float: left; /* Float links side by side */
+    text-align: center; /* Center-align text */
+
+}
+
+.fa-toolbar-buttons:hover {
+    color: #4d86c6;
+
+}
+
+.active {
+    /*  background-color: #4CAF50; Add an active/current color */
+}
+
+.profile-list {
+    margin-top: 20px;
+}
+
+.container-header {
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.Modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    width: 60%;
+    height: 50%;
+    z-index: 1003;
+    border-radius: 5px;
+}
+
+.Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.22);
+}
+
+.ReactModal__Overlay {
+
+    z-index: 1000; /* Must be greater than #side-dragbar:z-index */
+}
+
+.Modal .closebtn {
+    font-size: 40px;
+    padding-right: 10px;
+}
+
+.Modal a {
+    text-decoration: none;
+    color: #818181;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+.profile-details-body {
+    height: 400px;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.profile-details-body  input[type="text"]{
+        border: 1px solid #d8dde1;
+}
+
+
+.profile-details-header {
+    min-height: 40px;
+    padding: 13px;
+}
+
+
+.custom-icon {
+    border-radius: 100%;
+    display: table-cell;
+    font-size: 45px;
+    height: 60px;
+    padding: 30px;
+    text-align: center;
+    transition: .5s;
+    vertical-align: middle;
+    width: 10px;
+}
+
+.custom-icon:hover {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.fix-editor {
+    display: none;
+}
+
+.icon-wrapper {
+    display: inline-block;
+}
+
+.profile-details-footer {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    border-top: 1px solid #e9ecef;
+    min-height: 20%;
+    padding: 20px;
+    background-color: #f1f3f6;
+}
+
+.profile-details-footer>:not(:first-child) {
+    margin-left: .25rem;
+}
+
+.btn-blue {
+    background-color: #5b53fe;
+    color: #ffffff;
+}
