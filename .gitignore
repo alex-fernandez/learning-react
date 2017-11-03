@@ -27,7 +27,7 @@ coverage
 
 # Bower dependency directory (https://bower.io/)
 bower_components
-
+git remote add origin git@github.com:alex-fernandez/learning-react.git
 # node-waf configuration
 .lock-wscript
 
@@ -59,4 +59,4 @@ typings/
 # dotenv environment variables file
 .env
 
-
+.idea
